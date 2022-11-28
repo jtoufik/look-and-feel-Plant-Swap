@@ -25,20 +25,62 @@ body {
 
 nav {
     width: 100%;
-    padding-bottom: .5em;
-    padding-top: 1em;
+    display: flex;
+}
+
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
 }
 ul{
     display: flex;
-}
-li{
+    list-style-type: disc;
     list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.nav-item .nav-link {
+    transition: all .3s ease;
+    font-weight: bold;
+    font-size: 1em;
+    color: var(--green);
+    transition: transform .2s;
+    cursor: pointer;
+    padding: 1em;
+}
+
+.nav-link:hover{
+    color: var(--orange);
+    transform: scale(1.1);
+    text-shadow: 0px 5px 30px var(--shadow); 
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo
 {   
+    margin-left: 2em;
+    display: inline-block;
     width: 11rem;
-    margin-left: 3rem;
+    cursor: pointer;
 }
 
 .logo:hover{
@@ -46,20 +88,9 @@ li{
     text-shadow: var(--shadow);
 }
 
-.doneer{
-    margin-right: 3em;
-    margin-top: 2em;
-    font-weight: bold;
-    font-size: 1em;
-    color: var(--green);
-    transition: transform .2s;
-}
 
-.doneer:hover{
-    color: var(--orange);
-    transform: scale(1.1);
-    text-shadow: 0px 5px 30px var(--shadow); 
-}
+
+
 
 
 .header-bottom{
