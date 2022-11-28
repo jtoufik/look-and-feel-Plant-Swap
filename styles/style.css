@@ -49,7 +49,8 @@ nav {
     align-items: center;
     margin-top: 1em;
 }
-ul{
+
+.nav-ul{
     display: flex;
     list-style-type: disc;
     list-style: none;
@@ -68,8 +69,13 @@ ul{
     padding: 1em;
 }
 
+.nav-link{
+    transition: transform .2s;
+}
+
 .nav-link:hover{
     color: var(--orange);
+    transform: scale(1.1);
 }
 
 a{
@@ -118,33 +124,53 @@ h1{
     color: var(--green);
 }
 
+.arrow-icon{
+    width: 3%;
+    padding-top: 3em;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
 /* BUTTONS RUIL/DONEER */
 
 .btn-container{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    margin: 0  auto;
+    margin: 0 auto;
+    max-width: 36rem;
 }
 
 .btn-list{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+}
+
+.btn-li{
+    width: 18em;
+    padding: 0;
 }
 .button{
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.1em;
     border-radius: 5px;
     color:  #ffff;
     border-radius: 5px;
     font-family: Montserrat, arial;
-    padding: 1.5em;
-    width: 40%;
-    margin: .5em;
+    border: solid 2px var(--green);
+    padding: .8em 5em .8em;
+    margin: .7em;
     position: relative;
     bottom: 1.7em;
+    transform: scale(1.1);
+}
+
+.button:hover{
+    background-color: var(--orange);
+    color: #ffff;
+    border: var(--orange);
+    transition: transform .2s;
 }
 
 .btn-ruil{
@@ -154,7 +180,6 @@ h1{
 .btn-doneer{
     background-color: #ffff;
     color: var(--green);
-    border-style: solid var(--green);
 }
 
 
