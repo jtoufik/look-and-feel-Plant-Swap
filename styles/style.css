@@ -150,8 +150,9 @@ h1{
 }
 
 .btn-header{
-    display: inline-block;
-    font-size: 1em;
+    display: flex;
+    font-size: 1.1em;
+    letter-spacing: 2px;
     border-radius: 5px;
     color:  #ffff;
     border-radius: 5px;
@@ -160,30 +161,49 @@ h1{
     bottom: 3.7em;
     margin: 1em;
     padding: 15px 40px;
-    width: 16.5em;
-    text-align: center;
+    width: 14.5em;
+    align-items: center;
     border: 1px solid var(--green);
-    transition: transform .2s;
+    transition: transform .3s;
 }
 
 .btn-header:hover{
     color: #ffff;
-    background-color: var(--orange);
+    background-image: linear-gradient(to bottom right,var(--orange),#FF6000);
     border: 1px solid var(--orange);
     transform: scale(1.1);
     box-shadow: 0 8px 13px -4px var(--shadow);
 }
 
+/* BUTTON GRADIENT */
 .btn-ruil{
-    background-color: var(--green);
+    background-image:  linear-gradient(to bottom right,var(--green),#4E9640);
 }
 
 .btn-doneer{
-    background-color: #ffff;
+    background-image: linear-gradient(to bottom right, rgb(239, 239, 239),#ffff ) ;
     color: var(--green);
 }
 
+/* BUTTON ICON-SVG */
 
+.btn-header:hover .icon-svg {
+    fill: white !important;
+}
+
+.icon-svg {
+    display: inline-block;
+    fill: var(--green);
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1em;
+    padding: 0;
+    margin-left: 0;
+}
+
+.ruil-svg{
+    margin-right: 2em;
+}
 /* ============================================= MAIN ============================================= */
 
 .koptext{
