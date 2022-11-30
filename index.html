@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
 </head>
 
 <body>
-
 <header>
     <nav>
         <div class="nav-container"> 
-            <a href="index.html"> <img  class="logo" src="./assets/plantswap-logo-green.svg" alt="plant swap logo"></a>
+            <a href="index.html"> <img  class="logo" src="./assets//icons/plantswap-logo-green.svg" alt="plant swap logo"></a>
             <div class="nav-list">
                 <ul class="nav-ul">
                     <li class="nav-item">
@@ -37,16 +37,14 @@
             </div>
         </div>
     </nav>
-
     <div class="header-bottom">  
         <h1 class="header-h1">RUIL OF DONEER HIER JE STEKJE</h1>
-        <img class="arrow-icon" src="./assets/down-icon.svg" alt="arrow icon">
+        <img class="arrow-icon" src="./assets//icons/down-icon.svg" alt="arrow icon">
     </div>
-
     <div class="btn-container">
         <ul class="btn-list">
             <li class="btn-li">
-                <a href="overzicht.html" class="btn-header btn-ruil"> 
+                <a href="overzicht.html" class="btn-header btn-primary btn-all"> 
                     <svg class="icon-svg ruil-svg" width="24" height="24" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19.0135 6.42277C17.3748 4.92207 15.2482 4.09943 12.992 4.10138C8.93173 4.10487 5.42645 6.82767 4.45863 
                         10.6046C4.38818 10.8796 4.13772 11.0737 3.84789 11.0737H0.844109C0.451069 11.0737 0.152488 10.7248 0.225194 10.347C1.35939 
@@ -58,7 +56,7 @@
                 </a>
             </li>
             <li class="btn-li">
-                <a href="doneer.html" class="btn-header btn-doneer">
+                <a href="doneer.html" class="btn-header btn-secondary btn-all">
                     <svg class="icon-svg" width="24" height="24"  viewBox="0 0 57 51" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.8351 17.3066H22.1688V23.6C22.1688 24.0172 22.3356 24.4174 22.6326 24.7125C22.9295 
                         25.0075 23.3323 25.1733 23.7522 25.1733H30.0859C30.5058 25.1733 30.9085 25.0075 31.2055 24.7125C31.5024 
@@ -73,22 +71,61 @@
 </header>
 
 <main>
+    <section class="content-main">
+        <div class="blur">
 
-    <div>
-        
-    </div>
+            <h2 class="h2-main">Een duurzame wijk</h2>
 
-    <p class="koptext">
-        Ben jij ook plant-vriendelijk en voorstander van een duurzamere buurt,
-        kom dan een kijkje nemen bij de buurtcampus Oost. Ons nieuw project: <strong>De Plant Swap. </strong> 
-        Is hier om jouw collectie van planten te veranderen. Ruil of doneer hier je stekje! 
-        <br><br>
-        De Buurtcampus is een dynamische, laagdrempelige plek waar iedereen zich welkom en uitgenodigd voelt om kennis op te doen, te ontwikkelen en te delen. 
-        Met als doel: samen de buurt duurzamer, gezonder en inclusiever maken.
-    </p>
+            <p class="koptext">
+                Ben jij ook plant-vriendelijk en voorstander van een duurzamere buurt,
+                kom dan een kijkje nemen bij de buurtcampus Oost. Ons nieuw project: <strong>De Plant Swap. </strong> 
+                Is hier om jouw collectie van planten te veranderen. Ruil of doneer hier je stekje! 
+            </p>
+        </div>
+    </section>
 </main>
 
+<footer>
+    <div class="frame-footer-logo">
+        <img class="footer-logo" src="./assets//icons/BuurtcampusFooter.svg" alt="Buurtcampus logo">
+    </div>
+    <section class="content-footer">
+        <div class="socials-frame">
+            <ul class="ul-socials">
+                <li class="li-social">
+                    <a class="social-icon" href="https://www.instagram.com/buurtcampus_oost/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li class="li-social">
+                    <a class="social-icon" href="https://www.facebook.com/buurtcampusoost/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li class="li-social">
+                    <a class="social-icon" href="https://twitter.com/buurtcampus/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="li-social">
+                    <a class="social-icon" href="https://www.youtube.com/channel/UCP4o6SLi_oy7sVsodrD3Fxw/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class="containter-mail">
+            <div class="mail-frame">
+                <fieldset>
+                    <legend class="header-mail"> Mail ons voor vragen</legend>
 
+                    <label> E-mailadres: </label>
+                    <input name="subscriberEmail" type="email" placeholder="@">
+                    <input class="btn-all btn-secondary btn-versturen" type="button" value="Versturen">
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <div class="footer-footer">
+        <p>
+            Plant Swap is een initiatief van de Buurtcampus, de Hogeschool van Amsterdam (HvA) en Openbare Bibliotheek Amsterdam (OBA). 
+            Meer weten over Buurtcampussen? Kijk op www.buurtcampusnieuwwest.nl of op www.buurtcampusoost.nl
+        </p>
+        <a href="/s/en-US/article?urlname=Privacy-Disclaimer-NW">Privacy Disclaimer</a>
+    </div>
+</footer>
 
 </body>
 
