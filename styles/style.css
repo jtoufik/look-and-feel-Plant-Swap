@@ -320,7 +320,7 @@ footer{
     width: 50px !important;
     padding: 10px 8px;
     display: block;
-    border: solid 2px var(--orange);
+    border: solid 2px #ffff;
     border-radius: 25px;
 }
 
@@ -329,13 +329,13 @@ footer{
 }
 
 .fa-brands{
-    color: var(--orange);
+    color: #ffff;
     font-size: 25px;
 }
 
 i:hover{
-    color: #ffff;
-    font-size: 27px;
+    color: var(--orange);
+    font-size: 28px;
 }
 
 .container-mail{
