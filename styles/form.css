@@ -1,0 +1,123 @@
+.form-main{
+    background-color:rgba(139, 187, 6, 0.187); 
+    backdrop-filter: blur(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4); 
+    border-radius: 5px;
+    height: 50rem;
+    margin:  0 auto;
+    display: block;
+    justify-content: center;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    width: 70%;
+}
+
+.kopje-form{
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.form-stekje{
+    width: 50%;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+}
+
+/* inhoud formulier  */
+
+.form-naam{
+    font-size: 1rem;
+    color:rgba(34, 77, 18, 0.838);
+    background-color: rgba(255, 255, 255, 0.347); 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+}
+
+.form-beschrijving{
+    font-size: 1rem;
+    color:rgba(34, 77, 18, 0.838);
+    background-color: rgba(255, 255, 255, 0.347); 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+}
+
+.form-verzorging{
+    font-size: 1rem;
+    color:rgba(34, 77, 18, 0.838);
+    background-color: rgba(255, 255, 255, 0.347); 
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+}
+
+#name{
+    margin-top: 0.5rem;
+    width: 100%;
+    padding:  0.5em;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+textarea{
+    resize: none;
+    display: block;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 0.5em;
+}
+
+.upload{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 3em;
+}
+
+.icon{
+    height: 5rem;
+    border-left: #fff solid;
+    border-right: #fff solid;
+    border-width: 3px;
+    padding: 1em;
+}
+
+.submit-kader{
+    background-color: rgba(255, 255, 255, 0.347); 
+    border-radius: 10px;
+    padding: 1rem;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+}
+
+.submit{
+    font-weight: bold;
+    font-size: 1em;
+    background-color:  rgba(70, 121, 51, 1);
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1.9px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto;
+    font-family: buurtCampusArial-Bold;
+    padding: 0.5rem 0.5rem;
+}
+
+.submit:hover{
+    background-color: rgba(139, 187, 6, 0.601); 
+}

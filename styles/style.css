@@ -9,7 +9,7 @@
 }
 
 html {
-    background-color: #ffff;
+    background-color: #f7f3f1;
     font: 100%/1.4;
     font-family: arial;
     height: 100%;
@@ -23,7 +23,6 @@ html {
 body {
     margin: 0 auto;
     width: 100%;
-    background-color: #f7f3f1;
     }
 
 /* ============================================= HEADER ============================================= */
@@ -35,6 +34,7 @@ nav {
     display: flex;
     position: fixed;
     background-color: #ffff;
+    border-bottom: solid 1px #4e71413c;
     z-index: 1000;
 }
 
@@ -101,16 +101,17 @@ a{
 .header-bottom{
     background-image: url("../assets//backgrounds/leaves.jpg");
     background-color: var(--orange);
+    background-attachment: fixed;
     background-size: cover;
-    background-position-y: 80vh;
+    background-position-y: 75vh;
     padding: 1em;
     height: 25em;
 }
 
 .header-h1{
-    background-color: rgba(255, 255, 255, 0.477);
+    background-color: rgba(111, 110, 110, 0.477);
     backdrop-filter: invert(70%);
-    backdrop-filter: blur(10px);  
+    backdrop-filter: blur(5px);  
     -webkit-backdrop-filter: blur(10px);
     box-shadow: var(--shadow); 
     padding: 1em;
@@ -119,10 +120,14 @@ a{
     display: block;
     align-items: center;
     justify-content: center;
-    margin-top: 4em;
     max-width: 45rem;
     border-radius: 5px;
+    border: solid 1px #ffff;
 }   
+
+.header-home{
+    margin-top: 5.5em;
+}
 
 h1{
     text-align: center;
@@ -130,11 +135,12 @@ h1{
     font-family: Montserrat, arial;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: white;
 }
 
 .arrow-icon{
     width: 3%;
-    padding-top: 4em;
+    padding-top: 2em;
     display: block;
     align-items: center;
     margin: 0 auto;
@@ -188,7 +194,7 @@ h1{
 }
 
 .btn-primary{
-    background-image:  linear-gradient(to bottom right,var(--green),#273721);
+    background-image:  linear-gradient(to top right,var(--green),#273721);
 }
 
 .btn-secondary{
@@ -365,3 +371,7 @@ label{
     margin-left: 0.5em;
 }
 
+.footer-footer{
+    max-width: 45em;
+    margin: 0 auto;
+}

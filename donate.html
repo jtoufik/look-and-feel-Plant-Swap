@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/form.css">
         <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
     </head>
@@ -36,6 +37,49 @@
             </div>
         </nav>
     </header>
+
+    <main>
+        <h1>Voeg uw stekje toe die u wilt ruilen!</h1>   
+
+        <h2 class="kopje-form"> 
+            Vul hier de benodigde informatie die nodig zijn,
+            om het stekje goed te onderhouden.
+        </h2>
+
+        <form action="end.html" method="get" class="form-stekje">
+
+            <fieldset>
+                <div class="form-naam">
+                    <label for="name">Naam van uw stekje: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="form-beschrijving">
+                    <label for="text">Beschrijving: </label>
+                    <textarea name="comment" form="usrform"></textarea>
+                </div>
+
+                <div class="form-verzorging">
+                    <label for="text">Verzorging tips: </label>
+                    <textarea name="comment" form="usrform"></textarea>
+                </div>
+
+                <div class="form-verzorging">
+                    <label for="text">Upload een foto van uw stekje: </label>
+                    <div class="upload">
+                        <img class="icon" src="../assets/iPhone 13/🦆 icon _camera_.svg">
+                        <img class="icon" src="../assets/iPhone 13/🦆 icon _Image_.svg">
+                    </div>
+                </div>
+
+                <div class="submit-kader">
+                    <input class="submit" href="end.html" type="submit" value="RUIL!">
+                </div>
+
+            </fieldset>
+        </form>
+
+    </main>
 
     <footer>
         <div class="frame-footer-logo">
@@ -72,7 +116,7 @@
         <div class="footer-footer">
             <p>
                 Plant Swap is een initiatief van de Buurtcampus, de Hogeschool van Amsterdam (HvA) en Openbare Bibliotheek Amsterdam (OBA). 
-                Meer weten over Buurtcampussen? Kijk op www.buurtcampusnieuwwest.nl of op www.buurtcampusoost.nl
+                Meer weten over Buurtcampussen? Kijk dan op www.buurtcampusoost.nl
             </p>
             <a href="/s/en-US/article?urlname=Privacy-Disclaimer-NW">Privacy Disclaimer</a>
         </div>
