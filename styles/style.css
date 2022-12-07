@@ -1,7 +1,10 @@
 :root{
+    --dark-green: #273721;
     --green: #4E7141;
+    --dark-orange: #ad5017;
     --orange: #f26f20;
     --shadow: rgba(0,0,0,0.4);
+
 }
 
 * {
@@ -9,10 +12,8 @@
 }
 
 html {
-    background-color: #f7f3f1;
-    font: 100%/1.4;
+    
     font-family: arial;
-    height: 100%;
 }
 
 @font-face {
@@ -20,10 +21,9 @@ html {
     src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
 }
 
-body {
-    margin: 0 auto;
-    width: 100%;
-    }
+body{
+    background-color: #f7f3f1;
+}
 
 /* ============================================= HEADER ============================================= */
 
@@ -31,11 +31,13 @@ body {
 /* NAVIGATIE */
 nav {
     width: 100%;
-    display: flex;
     position: fixed;
+    height: 6em;
     background-color: #ffff;
     border-bottom: solid 1px #4e71413c;
     z-index: 1000;
+    margin: 0;
+    margin-top: -10px;
 }
 
 .nav-container{
@@ -51,7 +53,6 @@ nav {
 .nav-list{
     display: flex;
     align-items: center;
-    margin-top: 1em;
 }
 
 .nav-ul{
@@ -103,7 +104,7 @@ a{
     background-color: var(--orange);
     background-attachment: fixed;
     background-size: cover;
-    background-position-y: 75vh;
+    background-position-y: 85vh;
     padding: 1em;
     height: 25em;
 }
@@ -177,7 +178,7 @@ h1{
 
 .btn-all:hover{
     color: #ffff;
-    background-image: linear-gradient(to top left,var(--orange),#7a3002);
+    background-image: linear-gradient(to top left,var(--orange), var(--dark-orange));
     border: 1px solid var(--orange);
     transform: scale(1.1);
     box-shadow: 0 8px 13px -4px var(--shadow);
@@ -194,7 +195,7 @@ h1{
 }
 
 .btn-primary{
-    background-image:  linear-gradient(to top right,var(--green),#273721);
+    background-image:  linear-gradient(to top right,var(--green), var(--dark-green));
 }
 
 .btn-secondary{
@@ -224,10 +225,11 @@ h1{
 /* ============================================= MAIN ============================================= */
 
 .content-main{
-    background-image: url(../assets//backgrounds/leaves2.jpg);
+    background-image: url(../assets//backgrounds/leaves.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-position-y: -2vh;
+    background-size:cover;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -244,7 +246,7 @@ h1{
     width: 90%;
     height: 90%;
     backdrop-filter: invert(70%);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.576);
     border-radius: 5px;
     backdrop-filter: blur(10px);  
     -webkit-backdrop-filter: blur(10px);
@@ -356,13 +358,14 @@ i:hover{
     margin-top: 2.5em;
     margin-right: 10em;
 }
-fieldset{
+
+.fieldset-footer{
     padding: 1em;
     color: white;
     border-radius: 5px;
 }
 
-label{
+.label-footer{
     margin-right: 0.5em;
 }
 

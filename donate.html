@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>🌿Plant Swap</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles/style.css">
-        <link rel="stylesheet" href="./styles/form.css">
-        <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
-        <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
-    </head>
-<body>
+<head>
+    <title>🌿Plant Swap</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
+</head>
+
+<body class="body-donate">
+
     <header>
         <nav>
             <div class="nav-container"> 
@@ -38,47 +40,57 @@
         </nav>
     </header>
 
-    <main>
-        <h1>Voeg uw stekje toe die u wilt ruilen!</h1>   
+    <main class="bg-form">
+        <article class="container-form">
 
-        <h2 class="kopje-form"> 
-            Vul hier de benodigde informatie die nodig zijn,
-            om het stekje goed te onderhouden.
-        </h2>
+            <header class="header-donate">
+                <h1 class="h1-donate">Stek doneren</h1>
+                <p class="p-header-donate"> 
+                    Tip! Zorg voor een duidelijke en scherpe foto.
+                </p>
+            </header>
 
-        <form action="end.html" method="get" class="form-stekje">
+            <form class="form-plantswap" action="" method="get">
 
-            <fieldset>
-                <div class="form-naam">
-                    <label for="name">Naam van uw stekje: </label>
-                    <input type="text" name="name" id="name" required>
+                <fieldset class="fieldset-donate">
+                    <legend>Afbeelding </legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="text"> Upload hier een foto van je stekje:</label>
+                            <div class="input-image">
+                                <input type="file" accept="image/png, image/jpeg">
+                            </div>
+                        </div>
+                </fieldset>
+
+                <fieldset class="fieldset-donate">
+                    <legend> Titel </legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="name">Geef je stekje een titel: </label>
+                            <input  class="input-donate" required="required" maxlength="54" placeholder="Naam van het stekje" type="text" name="name">
+                        </div>
+                </fieldset>
+
+                <fieldset class="fieldset-donate"> 
+                    <legend> Omschrijving </legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="text" >Omschrijf hier wat voor type stekje het is:</label>
+                            <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Vertel meer over je stekje"></textarea>
+                        </div>
+                </fieldset>
+    
+                <fieldset class="fieldset-donate"> 
+                    <legend> Tips & tops</legend>
+                        <div class="box-input">
+                            <label class="label-donate" for="text" > Geef hier wat tips & tops om het stekje te verzorgen: </label>
+                            <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Wat zijn belangerijke aspecten wat betreft verzorging"></textarea>
+                        </div>
+                </fieldset>
+
+                <div class="">
+                    <input class="btn-all btn-primary btn-submit" href="" type="submit" value="Ruil">
                 </div>
-
-                <div class="form-beschrijving">
-                    <label for="text">Beschrijving: </label>
-                    <textarea name="comment" form="usrform"></textarea>
-                </div>
-
-                <div class="form-verzorging">
-                    <label for="text">Verzorging tips: </label>
-                    <textarea name="comment" form="usrform"></textarea>
-                </div>
-
-                <div class="form-verzorging">
-                    <label for="text">Upload een foto van uw stekje: </label>
-                    <div class="upload">
-                        <img class="icon" src="../assets/iPhone 13/🦆 icon _camera_.svg">
-                        <img class="icon" src="../assets/iPhone 13/🦆 icon _Image_.svg">
-                    </div>
-                </div>
-
-                <div class="submit-kader">
-                    <input class="submit" href="end.html" type="submit" value="RUIL!">
-                </div>
-
-            </fieldset>
-        </form>
-
+            </form>
+        </article>
     </main>
 
     <footer>
@@ -104,9 +116,9 @@
             </div>
             <div class="containter-mail">
                 <div class="mail-frame">
-                    <fieldset>
+                    <fieldset class="fieldset-footer">
                         <legend class="header-mail"> Meld je aan voor de nieuwsbrief</legend>
-                        <label> E-mailadres: </label>
+                        <label class="label-footer"> E-mailadres: </label>
                         <input name="subscriberEmail" type="email">
                         <input class="btn-all btn-secondary btn-versturen" type="button" value="Versturen">
                     </fieldset>
@@ -122,5 +134,6 @@
         </div>
     </footer>
     
-</body>
-</html>
+    </body>
+    
+    </html>

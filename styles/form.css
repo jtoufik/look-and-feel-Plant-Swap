@@ -1,123 +1,81 @@
-.form-main{
-    background-color:rgba(139, 187, 6, 0.187); 
-    backdrop-filter: blur(-5px);
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.4); 
-    border-radius: 5px;
-    height: 50rem;
-    margin:  0 auto;
-    display: block;
-    justify-content: center;
-    margin-bottom: 5rem;
-    padding-top: 1rem;
+
+.body-donate{
+    background-color: #ffff;
+}
+
+.bg-form{
+    background-image: url(../assets/backgrounds/leaves6.jpg);
+    background-color: var(--green);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-form{
+    background-color: #f7f3f1;
     width: 70%;
-}
-
-.kopje-form{
     margin: 0 auto;
-    width: 100%;
-    margin-bottom: 2em;
+    padding-top: 5em;
+    height: 72em;
 }
 
-.form-stekje{
-    width: 50%;
-    display:block;
-    justify-content: center;
-    align-items: center;
-    margin:  0 auto;
+.header-donate{
+    margin-bottom: 4em;
 }
 
-/* inhoud formulier  */
-
-.form-naam{
-    font-size: 1rem;
-    color:rgba(34, 77, 18, 0.838);
-    background-color: rgba(255, 255, 255, 0.347); 
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+.h1-donate{
+    color: var(--green);
+    margin-bottom: 0.5em;
 }
 
-.form-beschrijving{
-    font-size: 1rem;
-    color:rgba(34, 77, 18, 0.838);
-    background-color: rgba(255, 255, 255, 0.347); 
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
+.p-header-donate{
+    text-align: center;
+    color: var(--green);
 }
 
-.form-verzorging{
-    font-size: 1rem;
-    color:rgba(34, 77, 18, 0.838);
-    background-color: rgba(255, 255, 255, 0.347); 
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
-}
 
-#name{
-    margin-top: 0.5rem;
-    width: 100%;
-    padding:  0.5em;
-    border-radius: 5px;
-    border-width: 1px;
-}
-
-textarea{
-    resize: none;
+form{
+    margin: 0 auto;
     display: block;
-    padding: 1em;
-    width: 100%;
+    width: 40em;
+}
+
+
+.fieldset-donate{
+    margin-bottom: 1em;
+    font-family: Montserrat;
+    color: var(--dark-green);
     border-radius: 5px;
+    border-color: var(--green);
+}
+
+.box-input{
+    display: flex;
+    flex-direction: column;
     margin-top: 0.5em;
 }
 
-.upload{
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    gap: 3em;
+.label-donate{
+    margin-bottom: .5em;
 }
 
-.icon{
-    height: 5rem;
-    border-left: #fff solid;
-    border-right: #fff solid;
-    border-width: 3px;
+.input-image{
+    background-color: #ffff;
     padding: 1em;
 }
 
-.submit-kader{
-    background-color: rgba(255, 255, 255, 0.347); 
-    border-radius: 10px;
-    padding: 1rem;
-    width: 40%;
-    margin: 0 auto;
-    margin-top: 2rem;
-    box-shadow: 0 8px 14px -10px  rgb(79, 107, 0);
-}
-
-.submit{
-    font-weight: bold;
-    font-size: 1em;
-    background-color:  rgba(70, 121, 51, 1);
-    color: white;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 1.9px;
+.btn-submit{
+    padding: 15px 70px;
     display: block;
-    justify-content: center;
+    margin: 0 auto;
     align-items: center;
-    margin: 0  auto;
-    font-family: buurtCampusArial-Bold;
-    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    margin-top: 2em;
 }
 
-.submit:hover{
-    background-color: rgba(139, 187, 6, 0.601); 
+.input-donate, .texarea-donate{
+    font-family: arial;
+    color: grey;
+    font-size: 14px;
+    padding: 1em;
 }
+
