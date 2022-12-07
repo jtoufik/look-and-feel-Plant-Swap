@@ -12,7 +12,6 @@
 }
 
 html {
-    
     font-family: arial;
 }
 
@@ -23,10 +22,15 @@ html {
 
 body{
     background-color: #f7f3f1;
+    padding: 0;
+    margin: 0;
 }
 
 /* ============================================= HEADER ============================================= */
 
+header{
+    height: 6em;
+}
 
 /* NAVIGATIE */
 nav {
@@ -37,7 +41,6 @@ nav {
     border-bottom: solid 1px #4e71413c;
     z-index: 1000;
     margin: 0;
-    margin-top: -10px;
 }
 
 .nav-container{

@@ -1,6 +1,6 @@
 
-.body-donate{
-    background-color: #ffff;
+.main-donate{
+    margin: 0;
 }
 
 .bg-form{
@@ -8,18 +8,19 @@
     background-color: var(--green);
     background-attachment: fixed;
     background-size: cover;
+    padding-top: 4em;
 }
 
 .container-form{
-    background-color: #f7f3f1;
-    width: 70%;
+    background-color: #f7f3f1cf;
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);  
+    -webkit-backdrop-filter: blur(10px);
+    width: 50%;
     margin: 0 auto;
-    padding-top: 5em;
-    height: 72em;
-}
+    padding: .5em 0em 3em;
+    border-radius: 5px;
 
-.header-donate{
-    margin-bottom: 4em;
 }
 
 .h1-donate{
@@ -32,11 +33,11 @@
     color: var(--green);
 }
 
-
-form{
+.form-plantswap{
     margin: 0 auto;
     display: block;
     width: 40em;
+    margin-top: 2em;
 }
 
 
@@ -79,3 +80,9 @@ form{
     padding: 1em;
 }
 
+.footer-donate-logo{
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 3em;
+    width: 40%;
+    margin: 0 auto;
+}
