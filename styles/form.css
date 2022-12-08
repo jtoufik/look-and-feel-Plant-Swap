@@ -1,14 +1,19 @@
+.header-donate{
+    height: 6em;
+}
+
 
 .main-donate{
     margin: 0;
 }
+
 
 .bg-form{
     background-image: url(../assets/backgrounds/leaves6.jpg);
     background-color: var(--green);
     background-attachment: fixed;
     background-size: cover;
-    padding-top: 4em;
+    padding-top: 10em;
 }
 
 .container-form{
@@ -18,19 +23,22 @@
     -webkit-backdrop-filter: blur(10px);
     width: 50%;
     margin: 0 auto;
-    padding: .5em 0em 3em;
+    padding: 0.1em 0em 3em;
     border-radius: 5px;
-
 }
 
 .h1-donate{
-    color: var(--green);
+    color: black;
+    border-bottom: solid 2px;
+    margin-left: 2.7em;
+    margin-right: 2.7em;
+    padding-bottom: .5em;
+    border-color: var(--green);
     margin-bottom: 0.5em;
 }
 
 .p-header-donate{
     text-align: center;
-    color: var(--green);
 }
 
 .form-plantswap{
@@ -65,7 +73,7 @@
 }
 
 .btn-submit{
-    padding: 15px 70px;
+    padding: 1em 5em;
     display: block;
     margin: 0 auto;
     align-items: center;
@@ -75,8 +83,8 @@
 
 .input-donate, .texarea-donate{
     font-family: arial;
-    color: grey;
-    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
     padding: 1em;
 }
 
