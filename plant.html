@@ -6,11 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/plant.css">
+        <link rel="stylesheet" href="./styles/donate.css">
         <link rel="stylesheet" href="./assets/fontawesome-free-6.2.1-web/css/all.css">
         <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat">
     </head>
 <body>
-    <header>
+    <header class="header-plant">
         <nav>
             <div class="nav-container"> 
                 <a href="index.html"> <img  class="logo" src="./assets//icons/plantswap-logo-green.svg" alt="plant swap logo"></a>
@@ -37,11 +39,89 @@
         </nav>
     </header>
 
+    <main class="main-plant">
 
-    <footer>
-        <div class="frame-footer-logo">
+        <div class="plant-container">
+            <article class="plant-chosen plant-box">
+                <header class="header-donate">
+                    <h1 class="h1-donate">Uw gekozen stekje</h1>
+                </header>
+                <section class="section-plant">
+
+                    <fieldset class="fieldset-donate">
+                        <legend>Afbeelding </legend>
+                        <img  class="img-plant" src="./assets/plants/Monstera.jpeg"  alt="Stekje: Monstera Adansonii">
+                    </fieldset>
+                    <fieldset class="fieldset-donate">
+                        <legend> Titel </legend>
+                        <p>
+                            Monstera Adansonii
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset-donate"> 
+                        <legend> Omschrijving </legend>
+                        <p>
+                            Monstera Adansonii
+                        </p>
+                    </fieldset>
+                    <fieldset class="fieldset-donate"> 
+                        <legend> Tips & tops </legend>
+                        <p>
+                            Monstera Adansonii
+                        </p>
+                    </fieldset>
+                </section>
+            </article>
+
+            <article class="plant-exchange plant-box">
+                <header class="header-donate">
+                    <h1 class="h1-donate">Voeg hier uw stekje toe</h1>
+                </header>
+                <form class="form-plantswap plant-form" action="" method="get">
+                    <fieldset class="fieldset-donate">
+                        <legend>Afbeelding </legend>
+                            <div class="box-input">
+                                <label class="label-donate" for="text"> Upload hier een foto van je stekje:</label>
+                                <div class="input-image">
+                                    <input type="file" accept="image/png, image/jpeg">
+                                </div>
+                            </div>
+                    </fieldset>
+                    <fieldset class="fieldset-donate">
+                        <legend> Titel </legend>
+                            <div class="box-input">
+                                <label class="label-donate" for="name">Geef je stekje een titel: </label>
+                                <input  class="input-donate" required="required" maxlength="54" placeholder="Naam van het stekje.." type="text" name="name">
+                            </div>
+                    </fieldset>
+                    <fieldset class="fieldset-donate"> 
+                        <legend> Omschrijving </legend>
+                            <div class="box-input">
+                                <label class="label-donate" for="text" >Omschrijf hier wat voor type stekje het is:</label>
+                                <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Vertel meer over je stekje.."></textarea>
+                            </div>
+                    </fieldset>
+                    <fieldset class="fieldset-donate"> 
+                        <legend> Tips & tops</legend>
+                            <div class="box-input">
+                                <label class="label-donate" for="text" > Geef hier wat tips & tops om het stekje te verzorgen: </label>
+                                <textarea class="texarea-donate" name="description" rows="8" required="required" cols="50" placeholder="Wat zijn belangerijke aspecten wat betreft verzorging.."></textarea>
+                            </div>
+                    </fieldset>
+                    <div class="">
+                        <input class="btn-all btn-primary btn-submit" href="" type="submit" value="Klik hier om te ruilen">
+                    </div>
+                </form>
+            </article>
+        </div>
+
+        <div class="frame-footer-logo footer-donate-logo">
             <img class="footer-logo" src="./assets//icons/BuurtcampusFooter.svg" alt="Buurtcampus logo">
         </div>
+    </main>
+
+    <footer>
+
         <section class="content-footer">
             <div class="socials-frame">
                 <ul class="ul-socials">

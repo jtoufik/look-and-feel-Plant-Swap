@@ -17,7 +17,7 @@
 }
 
 .container-form{
-    background-color: #f7f3f1cf;
+    background-color: #f7f3f1dc;
     backdrop-filter: invert(70%);
     backdrop-filter: blur(5px);  
     -webkit-backdrop-filter: blur(10px);
@@ -45,8 +45,12 @@
     margin: 0 auto;
     display: block;
     width: 40em;
+}
+
+.form-donate{
     margin-top: 2em;
 }
+
 
 
 .fieldset-donate{
@@ -70,6 +74,7 @@
 .input-image{
     background-color: #ffff;
     padding: 1em;
+    border-radius: 5px;
 }
 
 .btn-submit{
@@ -86,6 +91,8 @@
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 1em;
+    border-style: none;
+    border-radius: 5px;
 }
 
 .footer-donate-logo{

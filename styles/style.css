@@ -4,6 +4,7 @@
     --dark-orange: #be5717;
     --orange: #f26f20;
     --shadow: rgba(0,0,0,0.4);
+    --beige: #f7f3f1;
 
 }
 
@@ -21,7 +22,7 @@ html {
 }
 
 body{
-    background-color: #f7f3f1;
+    background-color: var(--beige);
     padding: 0;
     margin: 0;
 }
@@ -100,7 +101,7 @@ a{
 
 .header-bottom{
     background-image: url("../assets//backgrounds/leaves3.jpg");
-    background-color: var(--orange);
+    background-color: var(--green);
     background-attachment: fixed;
     background-size: cover;
   

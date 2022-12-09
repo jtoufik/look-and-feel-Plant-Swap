@@ -1,0 +1,59 @@
+.header-plant{
+    height: 6em;
+}
+
+.main-plant{
+    margin: 0;
+    background-image: url(../assets/backgrounds/leaves7.jpg);
+    background-color: var(--green);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 3em;
+}
+
+.plant-container{
+    height: 72em;
+    background-color: rgba(255, 255, 255, 0.215);
+    backdrop-filter: invert(70%);
+    backdrop-filter: blur(5px);  
+    -webkit-backdrop-filter: blur(10px);
+    margin: 1em 5em 5em 5em;
+    border-radius: 5px;
+    box-shadow: 0 8px 14px -10px  rgb(10, 13, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.plant-box{
+    height: 70em;
+    width: 40em;
+    margin: 1em;
+    background-color: #f7f3f1dc;
+    border: solid var(--green);
+    border-radius: 5px;
+}
+
+.plant-h1{
+    margin: 1em;
+}
+
+.plant-exchange{
+    display: none;
+}
+
+.plant-form{
+    padding: 0em 5em 0em 5em;
+}
+
+.section-plant{
+    padding: 0em 5em 1em 5em;
+}
+
+.img-plant{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 98%;
+    height: 32em;
+    border-radius: 5px;
+}
