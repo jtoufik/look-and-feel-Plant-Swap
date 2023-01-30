@@ -26,7 +26,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 Hier heb ik een ontwerp gemaak voor de opdrachtgever Buurtcampus-Oost, met daar in een nieuw ontwerp volgens de richtlijnen van de gemaakte styleguide.
 
- 🌐 Link:  https://jtoufik.github.io/look-and-feel-corporate-identity/
+ 🌐 Link:  https://jtoufik.github.io/look-and-feel-Plant-Swap/
 
 ## 📍 Kenmerken
 
