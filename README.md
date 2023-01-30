@@ -40,7 +40,7 @@ De volgende deeltaken heb ik toegepast in deze leertaak:
 ## 🛠️Tools 
 
 * 🖥️ VSCode
-* ✍ JavaScript
+* ⚙️ JavaScript
 
 
 ## ✅ Licentie
