@@ -2,7 +2,7 @@
 Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. 
 De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Buurtcampus: Plant Swap
+# Buurtcampus Oost: Plant Swap
 
 
 ![image](https://user-images.githubusercontent.com/112856590/207584144-ef700d7b-25b2-470a-b564-a41d77a0868f.png)
